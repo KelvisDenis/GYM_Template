@@ -42,7 +42,7 @@ const NavBar = () => {
                Pagamento de Matricula
             </Link>
           <Link
-              to="/matricula"
+              to="/consultcodigo"
               className="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
           >
               Código de Matrícula 
@@ -120,7 +120,7 @@ const NavBar = () => {
                Pagamento de Matricula
             </Link>
           <Link
-              to="/matricula"
+              to="/consultcodigo"
               className="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium"
           >
             Código de Matrícula 

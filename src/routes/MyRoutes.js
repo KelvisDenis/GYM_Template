@@ -10,6 +10,7 @@ import PixPayment from "../pages/payments/pixPayment/PixPayment.js";
 import NavigateVerify from "../components/verifyNavigate/NavigateVerify.js";
 import ConsultMatricula from "../pages/ConsultPaymentMatricula/ConsultMatricula.js";
 import CardConsultTable from "../components/cards/cardTableConsultMatricula/CardConsultTable.js";
+import ConsultCodigo from "../pages/consultMatricula/ConsultCodigo.js";
 
 
 export default function MyRoutes(){
@@ -24,6 +25,8 @@ export default function MyRoutes(){
                 <Route path="/pagamento-pix" element={<NavigateVerify component={<PixPayment/>}/>}/>
                 <Route path="/pagamento-matricula" element={<NavigateVerify component={<ConsultMatricula/>}/>}/>
                 <Route path="/tableconsult" element={<NavigateVerify component={<CardConsultTable/>}/>}/>
+                <Route path="/consultcodigo" element={<NavigateVerify component={<ConsultCodigo/>}/>}/>
+
             </Routes>
             <Footer/>
         </Router>
