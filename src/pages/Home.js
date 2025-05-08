@@ -14,12 +14,12 @@ const Home = () => {
             Treine com os melhores profissionais e alcance seus objetivos de saúde e bem-estar.
           </p>
           <div className="mt-8">
-            <Link
-              href="/plans"
+            <a
+              href="#plans"
               className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium"
             >
               Ver Planos
-            </Link>
+            </a>
             <Link
               to="/contact"
               className="ml-4 bg-gray-700 hover:bg-gray-600 text-white px-6 py-3 rounded-md text-lg font-medium"

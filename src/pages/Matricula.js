@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import { MyContext } from "../../Myprovider/MyProvider";
-import AddUser from "../../data/methods/AddUser";
+import { MyContext } from "../Myprovider/MyProvider";
+import AddUser from "../data/methods/AddUser";
 
 const Matricula = () => {
   const {updateState} = useContext(MyContext);

@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavBar from "../components/navbar/NavBar";
-import Home from "../pages/Home/Home.js";
-import Avaliacao from "../pages/rate/Avaliaca.js";
-import Footer from "../components/footer/Footer.js";
-import Matricula from "../pages/Matricula/Matricula.js";
-import CardPayment from "../pages/payments/cardPayment/CardPayment.js";
-import PixPayment from "../pages/payments/pixPayment/PixPayment.js";
-import NavigateVerify from "../components/verifyNavigate/NavigateVerify.js";
-import ConsultMatricula from "../pages/ConsultPaymentMatricula/ConsultMatricula.js";
-import CardConsultTable from "../components/cards/cardTableConsultMatricula/CardConsultTable.js";
-import ConsultCodigo from "../pages/consultMatricula/ConsultCodigo.js";
+import NavBar from "./components/NavBar.js";
+import Home from "./pages/Home.js"
+import Avaliacao from "./pages/Avaliaca.js";
+import Footer from "./components/Footer.js";
+import Matricula from "./pages/Matricula.js";
+import CardPayment from "./pages/CardPayment.js";
+import PixPayment from "./pages/PixPayment.js";
+import NavigateVerify from "./components/NavigateVerify.js";
+import ConsultMatricula from "./pages/ConsultMatricula.js";
+import CardConsultTable from "./components/CardConsultTable.js";
+import ConsultCodigo from "./pages/ConsultCodigo.js";
 
 
 export default function MyRoutes(){

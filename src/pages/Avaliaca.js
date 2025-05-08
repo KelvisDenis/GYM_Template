@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SuccessRate from "../../components/cards/successRate/SuccessRate";
+import SuccessRate from "../components//SuccessRate";
 
 const Avaliacao = () => {
   const [showRate, setShowRate] = useState(false);

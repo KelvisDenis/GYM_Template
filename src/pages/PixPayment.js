@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { MyContext } from "../../../Myprovider/MyProvider";
+import { MyContext } from "../Myprovider/MyProvider";
 import { useNavigate } from "react-router-dom";
 
 const PixPayment = () => {
